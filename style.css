@@ -1,0 +1,183 @@
+/*alt+0176 for degree celcius*/
+*{
+	margin: 0%;
+	padding: 0%;
+	font-family: cursive;
+}
+.heading{
+	width: 80%;
+	height: 50px;
+	margin: 5px auto;
+	text-align: center;
+	background: darkslategrey;
+}
+.heading h1{
+	padding-top: 2px;
+	color: white;
+}
+.parent{
+	margin-top: 30px;
+	width: 60%;
+	height: 500px;
+	margin-left: 280px;
+	display: flex;
+	flex-direction: row;
+}
+.left-div{
+	height: 100%;
+	width: 50%;
+	margin-right: -15px;
+	background: url('gif.gif') no-repeat;
+	background-size: cover;
+	border-radius: 20px;
+	position: relative;
+}
+.left-div #day{
+	margin: 20px 0px 0px 30px;
+	letter-spacing: 2px;
+	font-size: 30px;
+}
+.left-div h3{
+	margin: 10px 0px 0px 30px;
+	letter-spacing: 2px;
+}
+.left-div h1{
+	margin: 0px 0px 0px 20px;
+	letter-spacing: 2px;
+}
+.location-icon{
+	margin: 15px 0px 0px 30px;
+	display: flex;
+	flex-direction: row;
+}
+.location-icon i{
+	margin: 11px 0px 0px 0px;
+	font-size: 25px;
+}
+#weather-icon{
+	font-size: 40px;
+	padding-top: 150px;
+	padding-left: 50px;
+}
+.tempvalue{
+	margin: 20px 0px 0px 35px;
+	letter-spacing: 2px;
+	font-size: 34px;
+}
+.season{
+	margin-left: 35px;
+	margin-top: 10px;
+	font-size: 18px;
+}
+.right-div{
+	height: 100%;
+	width: 50%;
+	background-color: darkslategrey;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	color: white;
+}
+.humidity-div{
+	display: flex;
+	flex-direction: row;
+}
+.right-div .humidity{
+	margin: 20px 0px 0px 50px;
+	letter-spacing: 2px;
+	font-size: 30px;
+}
+.right-div .humidity-value{
+	margin: 28px 0px 0px 120px;
+	letter-spacing: 2px;
+	font-size: 24px;
+}
+.wind-div{
+	display: flex;
+	flex-direction: row;
+}
+.right-div .wind{
+	margin: 20px 0px 0px 50px;
+	letter-spacing: 2px;
+	font-size: 30px;
+}
+.right-div .wind-value{
+	margin: 28px 0px 0px 100px;
+	letter-spacing: 2px;
+	font-size: 24px;
+}
+.three-days-weather{
+	width: 80%;
+	height: 150px;
+	margin-top: 20%;
+	margin: 20% auto;
+	margin-left: 12%;
+	background-color: white;
+	display: flex;
+	flex-direction: row;
+}
+.day-one{
+	height: 100%;
+	width: 25%;
+}
+.day-one:nth-child(even){
+	background-color: darkslategrey;
+	box-shadow: 8px 8px 8px black;
+}
+.day-one:nth-child(odd){
+	background-color: darkslategrey;
+	opacity: 0.9;
+	box-shadow: 8px 8px 8px black;
+}
+.day-one i{
+	font-size: 22px;
+	margin-top: 20px;
+	margin-left: 25px;
+}
+#day-1{
+	margin-top: 10px;
+}
+.day-one p{
+	margin-top: 10px;
+	text-align: center;
+}
+.input{
+	width: 90%;
+	height: 40px;
+	background: white;
+	border-radius: 20px;
+	margin: 0px 10px 10px 30px;
+	display: flex;
+}
+.input input{
+	height: 100%;
+	width: 80%;
+	border: none;
+	outline: none;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	background-color: white;
+	color: darkslategrey;
+	font-size: 18px;
+	font-weight: bold;
+	padding-left: 15px;
+	letter-spacing: 3px;
+}
+.input button{
+  height: 100%;
+	width: 15%;
+	border-radius: 50px;
+	border: none;
+	outline: none;
+	color: darkslategrey;
+	font-size: 18px;
+	font-weight: bold;
+}
+.footer{
+	width: 80%;
+	height: 30px;
+	margin: 20px auto;
+	text-align: center;
+	background: darkslategrey;
+	color: white;
+	letter-spacing: 3px;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My weather app</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body onload="getDate()">
+	<div class="heading">
+		<h1>Weather Forecasting</h1>
+	</div>
+
+	<div class="parent">
+		<div class="left-div">
+			 <h2 id = "day"></h2>
+			 <h3 id = "date"></h3>
+
+			 <div class="location-icon">
+			 	 <i class="fa-solid fa-location-dot"></i>
+			 	 <h1 class="cityname">Your Location</h1>
+			 </div>
+
+			 <i class="fa-sharp fa-solid fa-sun" id = "weather-icon"></i>
+			 <h2 class="tempvalue">0°C</h2>
+			 <p class="season">Weather</p>
+
+		</div>
+		<div class="right-div">
+			<div class="humidity-div">
+				<h2 class="humidity">Humidity</h2>
+				<h2 class="humidity-value">34%</h2>
+			</div>
+
+			<div class="wind-div">
+				<h2 class="wind">Wind</h2>
+				<h2 class="wind-value">0 Km/Hr</h2>
+			</div>
+
+			<div class="three-days-weather">
+				<div class="day-one">
+					<i class="fa-sharp fa-solid fa-sun"></i>
+					<p id = "day-1"></p>
+					<p class="d-1">0°C</p>
+				</div>
+				<div class="day-one">
+					<i class="fa-sharp fa-solid fa-sun"></i>
+					<p id = "day-2"></p>
+					<p class="d-2">0°C</p>
+				</div>
+				<div class="day-one">
+					<i class="fa-sharp fa-solid fa-sun"></i>
+					<p id = "day-3"></p>
+					<p class="d-3">0°C</p>
+				</div>
+				<div class="day-one">
+					<i class="fa-sharp fa-solid fa-sun"></i>
+					<p id = "day-4"></p>
+					<p class="d-4">0°C</p>
+				</div>
+			</div>
+
+			<div class="input">
+				<input class="search" placeholder="Search...">
+				<button onclick="search()"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></button>
+			</div>
+		</div>
+		</div>
+	</div>
+
+	<div class="footer">
+		<h3>Developed By Vaishnavi Dhulam</h3>
+	</div>
+
+	<script type="text/javascript" src="data.js"></script>
+</body>
+</html>
